@@ -195,9 +195,9 @@
                         <div class="carousel__inner">
                             <section class="carousel-slide carousel-slide--bg-right-center carousel-slide--full-overlay" data-bg-small="assets/images/carousel/bridge-photo.jpg" data-bg-medium="assets/images/carousel/bridge-photojpg" 
 							data-bg-large="assets/images/carousel/bridge-photo.jpg">
-                                <div class="carousel-slide__content">
+                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
                                     <span class="carousel-slide__subtitle" style="font-size: 25px;">Technological Solutions</span>
-                                    <h2 class="carousel-slide__title">We build technology solutions for business outcomes</h2>
+                                    <h2 class="carousel-slide__title" style="font-size: 40px;">We build technology solutions for business outcomes</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -213,9 +213,9 @@
                             <!-- carousel slide ends -->
                             <section class="carousel-slide carousel-slide--bg-center-bottom carousel-slide--gradient-overlay" data-bg-small="assets/images/carousel/building.jpg" 
 							data-bg-medium="assets/images/carousel/building.jpg" data-bg-large="assets/images/carousel/building.jpg">
-                                <div class="carousel-slide__content">
+                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
                                     <span class="carousel-slide__subtitle" style="font-size: 25px;">Cyber Security </span>
-                                    <h2 class="carousel-slide__title">Strengthen your cybersecurity and compliance posture.</h2>
+                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Strengthen your cybersecurity and compliance posture.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -230,9 +230,9 @@
                             <!-- carousel slide ends -->
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/people.jpg" data-bg-medium="assets/images/carousel/people.jpg" 
 							data-bg-large="assets/images/carousel/people.jpg">
-                                <div class="carousel-slide__content">
+                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
                                     <span class="carousel-slide__subtitle" style="font-size: 25px;">IT Operations Management</span>
-                                    <h2 class="carousel-slide__title">Create in depth performance insights of your modern infrastructure, applications and services.</h2>
+                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Create in depth performance insights of your modern infrastructure, applications and services.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -248,9 +248,9 @@
 
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/computers.jpg" data-bg-medium="assets/images/carousel/computers.jpg"
 							data-bg-large="assets/images/carousel/computers.jpg">
-                                <div class="carousel-slide__content">
+                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
                                     <span class="carousel-slide__subtitle" >Cloud </span>
-                                    <h2 class="carousel-slide__title">Build agility, innovate and business efficiencies with cloud.</h2>
+                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Build agility, innovate and business efficiencies with cloud.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -329,14 +329,6 @@
 									<p>
 									</div>
 								</div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                             </div>
                         </div>
                     </div>
