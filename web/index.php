@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="assets/css/aos.css">
          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="form.css" >
         <script src="form.js"></script>
         <style>
@@ -177,6 +178,7 @@
                                     <li><a href="#home-section" class="nav-link">Home</a></li>
                                     <li><a href="#services-section" class="nav-link">Services</a></li>
                                     <li><a href="#about-section" class="nav-link">About Us</a></li>
+									<li><a href="#core-values-section" class="nav-link">Core Values</a></li>
                                     <li><a href="#features-section" class="nav-link">Features</a></li>
                                     <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
                                     <li><a href="#contact-section" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact</a></li>
@@ -194,12 +196,12 @@
                             <section class="carousel-slide carousel-slide--bg-right-center carousel-slide--full-overlay" data-bg-small="assets/images/carousel/bridge-photo.jpg" data-bg-medium="assets/images/carousel/bridge-photojpg" 
 							data-bg-large="assets/images/carousel/bridge-photo.jpg">
                                 <div class="carousel-slide__content">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Business Avenger</span>
-                                    <h2 class="carousel-slide__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Technological Solutions</span>
+                                    <h2 class="carousel-slide__title">We build technology solutions for business outcomes</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
-                                            <span class="carousel-slide__link-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
+                                            <span class="carousel-slide__link-text">At Aarify, we go beyond helping businesses transform through technology. We focus on business outcomes to help make a meaningful difference</span>
                                         </div>
                                     </a>
                                 </div>
@@ -212,12 +214,12 @@
                             <section class="carousel-slide carousel-slide--bg-center-bottom carousel-slide--gradient-overlay" data-bg-small="assets/images/carousel/building.jpg" 
 							data-bg-medium="assets/images/carousel/building.jpg" data-bg-large="assets/images/carousel/building.jpg">
                                 <div class="carousel-slide__content">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Security</span>
-                                    <h2 class="carousel-slide__title">Morbi dictum mauris vel enim pharetra rutrum.</h2>
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Cyber Security </span>
+                                    <h2 class="carousel-slide__title">Strengthen your cybersecurity and compliance posture.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
-                                            <span class="carousel-slide__link-text">Morbi dictum mauris vel enim pharetra rutrum.</span>
+                                            <span class="carousel-slide__link-text">Protect your business from cyber risks and threats with our intelligent data- driven cybersecurity and compliance solutions.</span>
                                         </div>
                                     </a>
                                 </div>
@@ -229,12 +231,12 @@
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/people.jpg" data-bg-medium="assets/images/carousel/people.jpg" 
 							data-bg-large="assets/images/carousel/people.jpg">
                                 <div class="carousel-slide__content">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">IT Support Systems</span>
-                                    <h2 class="carousel-slide__title">Donec varius dui vitae mauris ornare, in finibus nibh aliquam.</h2>
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">IT Operations Management</span>
+                                    <h2 class="carousel-slide__title">Create in depth performance insights of your modern infrastructure, applications and services.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
-                                            <span class="carousel-slide__link-text">Donec varius dui vitae mauris ornare, in finibus nibh aliquam.</span>
+                                            <span class="carousel-slide__link-text">Drive performance and availability of the digital enterprise with automation and our full stack visibility tools for on-premise, hybrid and multi cloud environments.</span>
                                         </div>
                                     </a>
                                 </div>
@@ -247,12 +249,12 @@
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/computers.jpg" data-bg-medium="assets/images/carousel/computers.jpg"
 							data-bg-large="assets/images/carousel/computers.jpg">
                                 <div class="carousel-slide__content">
-                                    <span class="carousel-slide__subtitle" >Hybrid IT</span>
-                                    <h2 class="carousel-slide__title">Proin sed orci sed diam auctor rutrum.</h2>
+                                    <span class="carousel-slide__subtitle" >Cloud </span>
+                                    <h2 class="carousel-slide__title">Build agility, innovate and business efficiencies with cloud.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
-                                            <span class="carousel-slide__link-text">Proin sed orci sed diam auctor rutrum.</span>
+                                            <span class="carousel-slide__link-text">Enhance agility and accelerate your digital transformation journey with our holistic cloud strategy and migration approach.</span>
                                         </div>
                                     </a>
                                 </div>
@@ -279,56 +281,62 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="owl-carousel owl-all">
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0" style="text-align: center;">
-                                        <img class="flati" src="assets/images/flaticon/setting.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Managed Services</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/shield.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Security Services</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/cloud-computing.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Cloud Communications</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/cloud.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Cloud Infrastructure</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/global-network.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Global Networks</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/creative(1).png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Consulting Services</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
-                                <div class="block__35630 text-center">
-                                    <div class="icon mb-0">
-                                        <img class="flati" src="assets/images/flaticon/24-hours-support.png" alt="">
-                                    </div>
-                                    <h3 class="mb-3">Support Services</h3>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-                                </div>
+                            <div id="carouselExampleIndicators" class="carousel2 slide2" data-ride="carousel" data-interval="6000">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+									<!-- <div class="icon mb-0" style="text-align: center;">
+										<img class="flati" src="assets/images/flaticon/setting.png" alt="">
+									</div> -->
+									<h3 class="carousel-title">IT Operations Management</h3>
+									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;"> Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
+										infrastructure, on-premise, in hosted data centres and in the cloud. We help our clients 
+										achieve the following business outcomes  </div>
+
+									<p style="padding-left:20px; padding-right:20px;color: black;"> • Automate and optimize IT operations </br>
+										• Create visibility across multi-vendor infrastructure, cloud providers and operating systems greatly simplifying monitoring and troubleshooting <br>
+										• Monitor IT services health, and drill down to the root cause of degradations in performance </br>
+										• Automatically respond to degradation to restore optimal working conditions  
+									<p>
+									</div>
+									<div class="carousel-item">
+									<h3 class="carousel-title">Cybersecurity</h3>
+									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
+									managing enterprise security has never been more challenging.  Protect your business and brand 
+									integrity with our intelligent data-driven security solutions and insights.  </div>
+									<p style="padding-left:20px; padding-right:20px;color: black;"> • Automate and optimize IT operations </br>
+										• Create visibility across multi-vendor infrastructure, cloud providers and operating systems greatly simplifying monitoring and troubleshooting <br>
+										• Monitor IT services health, and drill down to the root cause of degradations in performance </br>
+										• Automatically respond to degradation to restore optimal working conditions  
+									<p>
+									</div>
+									
+									<div class="carousel-item">
+									<h3 class="carousel-title">Cloud Migration </h3>
+									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;"> Today’s  business dynamics are driving organizations towards the 
+									cloud as they seek to become agile and more efficient in their operations.
+									We help our customers in their digital transformation journey by providing 
+									them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support.
+									 Our approach underscores the following key business outcomes  </div>
+									<p style="padding-left:20px; padding-right:20px;color: black;"> • Define the right cloud strategy </br>
+										• Architect the right cloud solutions with emphasis on value, high availability, data security and automation. <br>
+										• Provide the required skills to re-platform and migrate services to the cloud </br>
+										• Align processes and people for a successful cloud journey   
+									<p>
+									</div>
+								</div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                             </div>
                         </div>
                     </div>
@@ -340,14 +348,77 @@
                                     <div class="block-heading-1">
                                         <h2 style="font-size:36px;line-height:1.33;color:black !important;">Who we are</h2>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque. Maecenas erat libero, fermentum nec blandit quis, varius at turpis.
-									Ut elementum enim mattis tortor tincidunt, at cursus nisl molestie. Phasellus at orci et ante suscipit faucibus eget ac massa. Mauris non velit at mi faucibus accumsan. Curabitur quis 
-									dapibus ex. Maecenas id viverra ligula, consequat tincidunt sem. In nec est id quam vulputate consequat non ut leo. Vivamus eget magna vel turpis vulputate placerat.</p>
-                                    <p>Duis quis metus enim. Cras finibus lacinia tellus eget lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin in viverra lectus, pharetra volutpat urna. In eros est, viverra aliquam dignissim vel, varius eu diam. Praesent quam augue, consequat viverra odio id, faucibus mattis orci. Aliquam augue risus, aliquam ac consectetur id, facilisis a lacus.</p>
+                                    <p style="font-size: 18px;color: black;">Aarify believes in building technology solutions for business outcomes. Our clients are our partners and we work together to co-create a better future through technology.</p>
+                                    <p style="font-size: 18px;color: black;">Our services are a reflection of the challenging world of our customers and we tailor each of our solutions
+									to enable them take the next steps with confidence. Our portfolio includes technology consulting, data analytics,
+									cybersecurity, IT operations management and cloud adoption.</p>
+									<p style="font-size: 18px;color: black;">We are passionate about playing our part in transforming the African continent and we do so by empowering the youth with business and digital skills to enable them create a better future for their communities.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+					<div id="module3" class="page-anchor">module3</div>
+                    <div class="site-section" id="core-values-section" style="background-color:aliceblue">
+                        <div class="container">
+                            <div class="row mb-5 ">
+                                <div class="col-md-12 text-center">
+                                    <div class="block-heading-1 text-center">
+                                        <h2 style="font-size:36px;color:black !important;">Our Core Values</h2>
+                                    </div>
+                                    <div class="row" style="padding: 15px;">
+                                        <div class="column zoom card" style="background-color: #A8DAC7;">
+                                            <p style="color: black;
+                                                font-size: 20px;
+                                                font-weight: 700;">EXCELLENCE</p>
+                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                                   We strive for excellence in all that we do. <br> We set high personal and company standards, 
+                                                   and then consistently work to exceed them. <br> We attract self-motivated, highly capable, 
+                                                   results-oriented people and invest heavily in their development.
+                                                </p>
+                                        </div>
+                                        <div class="column zoom card" style="background-color: #A8DAC7;">
+                                            <p style="color: black;
+                                                font-size: 20px;
+                                                font-weight: 700;">INTEGRITY</p>
+                                                <p style="font-size: 14px; color: black;font-stretch: normal;line-height: 25px;">
+                                                We are honest, transparent and ethical in our conduct.<br>
+                                                We do what is right always, not what is easiest.
+                                                </p>
+                                        </div>
+                                        <div class="column zoom card" style="background-color: #A8DAC7;">
+                                        <p style="color: black;
+                                                font-size: 20px;
+                                                font-weight: 700;">COMMITMENT TO CUSTOMERS</P>
+                                         <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                            We strive for excellence in all that we do.<br>
+                                            We set high personal and company standards, 
+                                            and then consistently work <br> to exceed them. We attract self-motivated, highly capable, results-oriented people and invest heavily in their development.
+                                         </p>
+                                        </div>
+                                  </div>
+                                  <div class="row" style="padding: 15px;">
+                                        <div class="column zoom card" style="background-color: #A8DAC7;">
+                                            <p style="color: black; font-size: 20px;
+                                                font-weight: 700;">TEAMWORK</p>
+                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                                We inspire loyalty with our employees and partners through recognition,<br> understanding and mutual respect. 
+                                                We strive to have fun and enjoy our relationships with those with whom we interface.
+                                                </p>
+                                        </div>
+                                        <div class="column zoom card" style="background-color: #A8DAC7;">
+                                            <p style="color: black; font-size: 20px;
+                                                font-weight: 700;">INNOVATION</p>
+                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                                We will be bold, courageous and agile in tackling customer challenges while redefining new standards of 
+                                                excellence in everything that we do
+                                                </p>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 </div>
                 <div class="layout layout--full-width">
 					<div class="site-sections bg-light" id="features-section">
@@ -357,7 +428,7 @@
 									<div class="block-heading-1 text-center">
 										<h2 class="media-cta-container__title" style="color:black !important; font-size:36px !important;">Technology Solutions</h2>
 									</div>
-									<p class="media-cta-container__strapline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque.</p>
+									<p class="media-cta-container__strapline">As you navigate your transformation journey, you will be faced with numerous choices to make in your strategy and technology ecosystem. The rate of technology evolution today makes the task even more overwhelming as you seek to make the best decisions for your digital future. We help our customers to tailor strategy and roadmaps that fit and to uncover the right technology choices for their business problems. Our services span the entire lifecycle, from strategy to implementation and the entire technology ecosystem covering cloud, IT optimization, infrastructure and cybersecurity.  We ensure that all the critical pieces are put together for a successful transformation.</p>
 								</div>
 								<div class="media-cta-container__list-container">
 									<div class="media-cta media-cta--bg-center-bottom">
@@ -479,51 +550,31 @@
                                     <div class="content-carousel__img-container" style="background-image:url(assets/images/leann.jpg)"></div>
                                     <div class="content-carousel__content">
                                         <h2 class="content-carousel__title">Lean and Agile</h2>
-                                       <p class="media-cta-container__strapline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque.</p>
+                                       <p class="media-cta-container__strapline">We believe in being lean in our operations, and we use agile methods to allow you to get the most business benefits early in your transformation journey.</p>
                                     </div>
                                 </div>
                                 <div class="content-carousel content-carousel--bg-right-center">
                                     <div class="content-carousel__img-container" style="background-image:url(assets/images/focus2.jpg)"></div>
                                     <div class="content-carousel__content">
                                         <h2 class="content-carousel__title">Focused on your business outcomes</h2>
-                                        <p class="media-cta-container__strapline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque.</p>
+                                        <p class="media-cta-container__strapline">Our focus is to use data to help you transform your business.</p>
                                     </div>
                                 </div>
                                 <div class="content-carousel content-carousel--bg-center-bottom">
                                     <div class="content-carousel__img-container" style="background-image:url(assets/images/inno.jpg)"></div>
                                     <div class="content-carousel__content">
                                         <h2 class="content-carousel__title">Innovative</h2>
-                                       <p class="media-cta-container__strapline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque.</p>
+                                       <p class="media-cta-container__strapline">We are excited to work with like-minded clients who are eager to find better ways of doing things.</p>
                                     </div>
                                 </div>
                                 <div class="content-carousel content-carousel--bg-center-bottom">
                                     <div class="content-carousel__img-container" style="background-image:url(assets/images/tech.jpg)"></div>
                                     <div class="content-carousel__content">
                                         <h2 class="content-carousel__title">Technical expertise</h2>
-                                       <p class="media-cta-container__strapline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla placerat porta ex eu semper. Etiam sed purus quis orci accumsan scelerisque.</p>
+                                       <p class="media-cta-container__strapline">At Aarify, we have the experts to help you on your digital journey and we have the credentials to prove it.</p>
                                     </div>
                                 </div>
-                                <div class="content-carousel content-carousel--bg-center-bottom">
-                                    <div class="content-carousel__img-container" style="background-image:url(assets/images/carousel/011.jpg)"></div>
-                                    <div class="content-carousel__content">
-                                        <h2 class="content-carousel__title">In placerat lorem eget tincidunt lobortis.</h2>
-                                        <a href="#" class="content-carousel__btn">Find out more</a>
-                                    </div>
-                                </div>
-                                <div class="content-carousel content-carousel--bg-center-bottom">
-                                    <div class="content-carousel__img-container" style="background-image:url(assets/images/carousel/008.jpg)"></div>
-                                    <div class="content-carousel__content">
-                                        <h2 class="content-carousel__title">Sed et ligula id nisl finibus lobortis.</h2>
-                                        <a href="#" class="content-carousel__btn">Find out more</a>
-                                    </div>
-                                </div>
-                                <div class="content-carousel content-carousel--bg-center-bottom">
-                                    <div class="content-carousel__img-container" style="background-image:url(assets/images/carousel/009.jpg)"></div>
-                                    <div class="content-carousel__content">
-                                        <h2 class="content-carousel__title">Quisque iaculis odio vel finibus imperdiet.</h2>
-                                        <a href="#" class="content-carousel__btn">Find out more</a>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
 						<div id="feedback-section">
