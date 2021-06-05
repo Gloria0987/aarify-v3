@@ -24,7 +24,9 @@
          <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="assets/css/main.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/scss/style.scss">
 		<link rel="stylesheet" href="form.css" >
+		<link rel="stylesheet" href="assets/scss/main.css">
         <script src="form.js"></script>
         <style>
             @import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
@@ -174,12 +176,10 @@
                         </div>
                         <div class="col-12">
                             <nav class="site-navigation text-right ml-auto " role="navigation">
-                                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" >
                                     <li><a href="#home-section" class="nav-link">Home</a></li>
                                     <li><a href="#services-section" class="nav-link">Services</a></li>
                                     <li><a href="#about-section" class="nav-link">About Us</a></li>
-									<li><a href="#core-values-section" class="nav-link">Core Values</a></li>
-                                    <li><a href="#features-section" class="nav-link">Features</a></li>
                                     <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
                                     <li><a href="#contact-section" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact</a></li>
                                 </ul>
@@ -192,12 +192,31 @@
             <main>
                 <div class="banner-container">
                     <div class="carousel" data-stop-scroll="False">
+					<header class="site-navbar js-sticky-header site-navbar-target" role="banner" style="height:0;">
+						<div class="container">
+							<div class="row align-items-center position-relative">
+								<div class="col-12">
+									<nav class="site-navigation text-right ml-auto " role="navigation" >
+										<ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" style="padding-top: 48px;">
+											<li><a href="#technology_consulting_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Technology Consulting</a></li>
+											<li><a href="#cyber_security_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cyber Security</a></li>
+											<li><a href="#it_ops_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">IT Operations Management</a></li>
+											<li><a href="#cloud_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cloud</a></li>
+											
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</header>
                         <div class="carousel__inner">
                             <section class="carousel-slide carousel-slide--bg-right-center carousel-slide--full-overlay" data-bg-small="assets/images/carousel/bridge-photo.jpg" data-bg-medium="assets/images/carousel/bridge-photojpg" 
 							data-bg-large="assets/images/carousel/bridge-photo.jpg">
-                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Technological Solutions</span>
-                                    <h2 class="carousel-slide__title" style="font-size: 40px;">We build technology solutions for business outcomes</h2>
+								
+                                <div class="carousel-slide__content" style="">
+								
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;"></span>
+                                    <h2 class="carousel-slide__title" style="font-size: 30px;">We build technology solutions for business outcomes</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -213,9 +232,10 @@
                             <!-- carousel slide ends -->
                             <section class="carousel-slide carousel-slide--bg-center-bottom carousel-slide--gradient-overlay" data-bg-small="assets/images/carousel/building.jpg" 
 							data-bg-medium="assets/images/carousel/building.jpg" data-bg-large="assets/images/carousel/building.jpg">
-                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">Cyber Security </span>
-                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Strengthen your cybersecurity and compliance posture.</h2>
+							
+                                <div class="carousel-slide__content">
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;"></span>
+                                    <h2 class="carousel-slide__title" style="font-size: 30px;">Strengthen your cybersecurity and compliance posture.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -230,9 +250,10 @@
                             <!-- carousel slide ends -->
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/people.jpg" data-bg-medium="assets/images/carousel/people.jpg" 
 							data-bg-large="assets/images/carousel/people.jpg">
-                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
-                                    <span class="carousel-slide__subtitle" style="font-size: 25px;">IT Operations Management</span>
-                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Create in depth performance insights of your modern infrastructure, applications and services.</h2>
+							
+                                <div class="carousel-slide__content">
+                                    <span class="carousel-slide__subtitle" style="font-size: 25px;"></span>
+                                    <h2 class="carousel-slide__title" style="font-size: 30px;">Create in depth performance insights of your modern infrastructure, applications and services.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -248,9 +269,10 @@
 
                             <section class="carousel-slide carousel-slide--bg-center-bottom " data-bg-small="assets/images/carousel/computers.jpg" data-bg-medium="assets/images/carousel/computers.jpg"
 							data-bg-large="assets/images/carousel/computers.jpg">
-                                <div class="carousel-slide__content" style="padding-top: 42vh!important;">
-                                    <span class="carousel-slide__subtitle" >Cloud </span>
-                                    <h2 class="carousel-slide__title" style="font-size: 40px;">Build agility, innovate and business efficiencies with cloud.</h2>
+							
+                                <div class="carousel-slide__content">
+                                    <span class="carousel-slide__subtitle" > </span>
+                                    <h2 class="carousel-slide__title" style="font-size: 30px;">Build agility, innovate and business efficiencies with cloud.</h2>
                                     <a href="#" class="carousel-slide__link">
                                         <div class="carousel-slide__link-container carousel-slide__link-container--page">
                                             <span class="carousel-slide__link-icon carousel-slide__link-icon--page"></span>
@@ -281,55 +303,83 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="carouselExampleIndicators" class="carousel2 slide2" data-ride="carousel" data-interval="6000">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-								<div class="carousel-inner">
-									<div class="carousel-item active">
-									<!-- <div class="icon mb-0" style="text-align: center;">
-										<img class="flati" src="assets/images/flaticon/setting.png" alt="">
-									</div> -->
-									<h3 class="carousel-title">IT Operations Management</h3>
-									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;"> Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
-										infrastructure, on-premise, in hosted data centres and in the cloud. We help our clients 
-										achieve the following business outcomes  </div>
+							<div class="dark">
+								<main class="container py-4">
 
-									<p style="padding-left:20px; padding-right:20px;color: black;"> • Automate and optimize IT operations </br>
-										• Create visibility across multi-vendor infrastructure, cloud providers and operating systems greatly simplifying monitoring and troubleshooting <br>
-										• Monitor IT services health, and drill down to the root cause of degradations in performance </br>
-										• Automatically respond to degradation to restore optimal working conditions  
-									<p>
-									</div>
-									<div class="carousel-item">
-									<h3 class="carousel-title">Cybersecurity</h3>
-									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
+									<article class="postcard dark blue" id="it_ops_link">
+										<a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+										</a>
+										<div class="postcard__text">
+											<h1 class="postcard__title blue"><a href="#" style="color: black;font-size: 20px;">IT Operations Management</a></h1>
+											<div class="postcard__bar"></div>
+											<div class="postcard__preview-txt" style="color:black;">Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
+										infrastructure, on-premise, in hosted data centres and in the cloud. We help our clients 
+										achieve the following business outcomes:</div><br/>
+										
+											<div class="card_list">
+												<ul class="first-list" style="color:black;">
+												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Automate and optimize IT operations</li>
+												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Create visibility across multi-vendor infrastructure, cloud providers and operating
+													systems greatly simplifying monitoring and troubleshooting</li>
+												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Monitor IT services health, and drill down to the root cause of degradations in performance</li>
+												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Automatically respond to degradation to restore optimal working conditions.</li>
+												</ul>
+											</div>
+										</div>
+										
+									</article>
+									<article class="postcard dark red" id="cyber_security_link">
+										<a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+										</a>
+										<div class="postcard__text">
+											<h1 class="postcard__title red"><a href="#" style="color: black;font-size: 20px;">Cybersecurity</a></h1>
+											<div class="postcard__bar"></div>
+											<div class="postcard__preview-txt" style="color:black;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
 									managing enterprise security has never been more challenging.  Protect your business and brand 
-									integrity with our intelligent data-driven security solutions and insights.  </div>
-									<p style="padding-left:20px; padding-right:20px;color: black;"> • Automate and optimize IT operations </br>
-										• Create visibility across multi-vendor infrastructure, cloud providers and operating systems greatly simplifying monitoring and troubleshooting <br>
-										• Monitor IT services health, and drill down to the root cause of degradations in performance </br>
-										• Automatically respond to degradation to restore optimal working conditions  
-									<p>
-									</div>
-									
-									<div class="carousel-item">
-									<h3 class="carousel-title">Cloud Migration </h3>
-									<div style="word-break: normal; padding-left:20px; padding-right:20px;color: black;"> Today’s  business dynamics are driving organizations towards the 
-									cloud as they seek to become agile and more efficient in their operations.
-									We help our customers in their digital transformation journey by providing 
-									them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support.
-									 Our approach underscores the following key business outcomes  </div>
-									<p style="padding-left:20px; padding-right:20px;color: black;"> • Define the right cloud strategy </br>
-										• Architect the right cloud solutions with emphasis on value, high availability, data security and automation. <br>
-										• Provide the required skills to re-platform and migrate services to the cloud </br>
-										• Align processes and people for a successful cloud journey   
-									<p>
-									</div>
-								</div>
-                            </div>
+									integrity with our intelligent data-driven security solutions and insights.</div><br/>
+											<div class="card_list">
+												<ul class="first-list" style="color:black;">
+												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> We help organizations gain visibility across their entire ICT estate enabling them to visualize emerging attacks from multiple sources across all environments, devices and platforms.</li>
+												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> When under attack, speed is of utmost importance. Aarify helps you respond faster through security automation and orchestration. </li>
+												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> Save time and obtain greater control of your cybersecurity through automated compliance analytics and reporting across multiple regulatory frameworks.</li>
+												</ul>
+											</div>
+											
+										</div>
+									</article>
+									<article class="postcard dark green" id="cloud_link">
+										<a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+										</a>
+										<div class="postcard__text">
+											<h1 class="postcard__title green"><a href="#" style="color: black;font-size: 20px;">Cloud Migration </a></h1>
+											<div class="postcard__bar"></div>
+											<div class="postcard__preview-txt" style="color:black;">Today’s  business dynamics are driving organizations towards the cloud as they seek to become agile and more efficient in their operations. We help our customers in their digital transformation journey by providing them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support. Our approach underscores the following key business outcomes.</div>
+											<div class="card_list">
+												<ul class="first-list" style="color:black;">
+												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Define the right cloud strategy. </li>
+												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Architect the right cloud solutions with emphasis on value, high availability, data security and automation.</li>
+												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Provide the required skills to re-platform and migrate services to the cloud. </li>
+												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Align processes and people for a successful cloud journey. </li>
+												</ul>
+											</div>
+										</div>
+									</article>
+									<article class="postcard dark yellow" id="technology_consulting_link">
+										<a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+										</a>
+										<div class="postcard__text">
+											<h1 class="postcard__title yellow"><a href="#" style="color: black;font-size: 20px;">Technology Consulting</a></h1>
+											<div class="postcard__bar"></div>
+											<div class="postcard__preview-txt" style="color:black;">As you navigate your transformation journey, you will be faced with numerous choices to make in your strategy and technology ecosystem. The rate of technology evolution today makes the task even more overwhelming as you seek to make the best decisions for your digital future. We help our customers to tailor strategy and roadmaps that fit and to uncover the right technology choices for their business problems. Our services span the entire lifecycle, from strategy to implementation and the entire technology ecosystem covering cloud, IT optimization, infrastructure and cybersecurity.  We ensure that all the critical pieces are put together for a successful transformation.</div>
+										</div>
+									</article>
+								</main>
+							</div>
+                           
                         </div>
                     </div>
                     <div id="module2" class="page-anchor">module2</div>
@@ -350,70 +400,77 @@
                         </div>
                     </div>
 					<div id="module3" class="page-anchor">module3</div>
-                    <div class="site-section" id="core-values-section" style="background-color:aliceblue">
+                    <div class="site-section" id="core-values-section">
                         <div class="container">
                             <div class="row mb-5 ">
-                                <div class="col-md-12 text-center">
+                                <div class="col-md-12">
                                     <div class="block-heading-1 text-center">
-                                        <h2 style="font-size:36px;color:black !important;">Our Core Values</h2>
+                                        <h2 style="font-size:36px;line-height:1.33;color:black !important;">Core Values</h2>
                                     </div>
-                                    <div class="row" style="padding: 15px;">
-                                        <div class="column zoom card" style="background-color: #A8DAC7;">
-                                            <p style="color: black;
-                                                font-size: 20px;
-                                                font-weight: 700;">EXCELLENCE</p>
-                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
-                                                   We strive for excellence in all that we do. <br> We set high personal and company standards, 
-                                                   and then consistently work to exceed them. <br> We attract self-motivated, highly capable, 
-                                                   results-oriented people and invest heavily in their development.
+                                    <div class="row">
+                                        <div class="column-values zoom">
+                                            <div class="card-values ">
+                                                <p style="color: black; font-size: 20px; font-weight: 700;">EXCELLENCE</p>
+                                                <p style="font-size: 14px; font-weight: 600;">
+                                                    We strive for excellence in all that we do. We set high personal and company standards, 
+                                                    and then consistently work to exceed them. We attract self-motivated, highly capable, 
+                                                    results-oriented people and invest heavily in their development.
                                                 </p>
+                                            </div>
                                         </div>
-                                        <div class="column zoom card" style="background-color: #A8DAC7;">
-                                            <p style="color: black;
-                                                font-size: 20px;
-                                                font-weight: 700;">INTEGRITY</p>
-                                                <p style="font-size: 14px; color: black;font-stretch: normal;line-height: 25px;">
+
+                                        <div class="column-values zoom">
+                                            <div class="card-values">
+                                            <p style="color: black; font-size: 20px; font-weight: 700;">INTEGRITY</p>
+                                                <p style="font-size: 14px; font-weight: 600;">
                                                 We are honest, transparent and ethical in our conduct.<br>
                                                 We do what is right always, not what is easiest.
                                                 </p>
+                                            </div>
                                         </div>
-                                        <div class="column zoom card" style="background-color: #A8DAC7;">
-                                        <p style="color: black;
-                                                font-size: 20px;
-                                                font-weight: 700;">COMMITMENT TO CUSTOMERS</P>
-                                         <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
-                                            We strive for excellence in all that we do.<br>
-                                            We set high personal and company standards, 
-                                            and then consistently work <br> to exceed them. We attract self-motivated, highly capable, results-oriented people and invest heavily in their development.
-                                         </p>
+                                        
+                                        <div class="column-values zoom">
+                                            <div class="card-values">
+                                                <p style="color: black; font-size: 20px; font-weight: 700;">COMMITMENT TO CUSTOMERS</P>
+                                                <p style="font-size: 14px; font-weight: 600;">
+												Our customers are our partners and we focus on achieving total customer satisfaction, confidence, and enthusiasm.  We always strive to achieve healthy long-term alliances through trust, reliability and integrity
+                                                   
+                                                </p>
+                                            </div>
                                         </div>
-                                  </div>
-                                  <div class="row" style="padding: 15px;">
-                                        <div class="column zoom card" style="background-color: #A8DAC7;">
-                                            <p style="color: black; font-size: 20px;
-                                                font-weight: 700;">TEAMWORK</p>
-                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                    </div> 
+                                    <div class="row">
+                                        <div class="column-values zoom">
+                                            <div class="card-values">
+                                                <p style="color: black; font-size: 20px; font-weight: 700;">TEAMWORK</p>
+                                                <p style="font-size: 14px; font-weight: 600;">
                                                 We inspire loyalty with our employees and partners through recognition,<br> understanding and mutual respect. 
                                                 We strive to have fun and enjoy our relationships with those with whom we interface.
                                                 </p>
+                                            </div>
                                         </div>
-                                        <div class="column zoom card" style="background-color: #A8DAC7;">
-                                            <p style="color: black; font-size: 20px;
-                                                font-weight: 700;">INNOVATION</p>
-                                                <p style="font-size: 14px;color: black;font-stretch: normal;line-height: 25px;">
+                                        <div class="column-values zoom">
+                                            <div class="card-values">
+                                                <p style="color: black; font-size: 20px; font-weight: 700;">INNOVATION</p>
+                                                <p style="font-size: 14px; font-weight: 600;">
                                                 We will be bold, courageous and agile in tackling customer challenges while redefining new standards of 
                                                 excellence in everything that we do
                                                 </p>
+                                            </div>
                                         </div>
+                                    </div>
+                                    </div>
                                   </div>
+                                 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 </div>
+                </div>
                 <div class="layout layout--full-width">
-					<div class="site-sections bg-light" id="features-section">
+					<div class="site-sections bg-light" id="features-section" style="display:none">
 						<div class="media-cta-container  media-cta-container--padding-small">
 							<div class="media-cta-container__content">
 								<div class="media-cta-container__header-info">
@@ -650,79 +707,34 @@
 					<div class="modal fade" id="feedback_modal" tabindex="-1" aria-labelledby="feedback_modal_label" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="feedback_modal_label">Leave Your Feedback?</h5>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<img class="flati-close" src="assets/images/flaticon/close.png" alt="">
-									</button>
-								</div>
-								<form id="feedback_form" onsubmit="return false;">
-									<div class="modal-body">
-										<div class="form-group">
-											<label>How are you satisfied with your experience on this website?</label>
-											<div class="container d-flex justify-content-center mt-2">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="card">
-															<div class="card-body text-center">
-																<span class="myratings"></span>
-																<fieldset class="rating">
-																	<input type="radio" id="star5" name="rating" value="5" />
-																	<label class="full" for="star5" title="Awesome - 5 stars"></label>
-																	<input type="radio" id="star4half" name="rating" value="4.5" />
-																	<label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-																	<input type="radio" id="star4" name="rating" value="4" />
-																	<label class="full" for="star4" title="Pretty good - 4 stars"></label>
-																	<input type="radio" id="star3half" name="rating" value="3.5" />
-																	<label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-																	<input type="radio" id="star3" name="rating" value="3" />
-																	<label class="full" for="star3" title="Meh - 3 stars"></label>
-																	<input type="radio" id="star2half" name="rating" value="2.5" />
-																	<label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-																	<input type="radio" id="star2" name="rating" value="2" />
-																	<label class="full" for="star2" title="Kinda bad - 2 stars"></label>
-																	<input type="radio" id="star1half" name="rating" value="1.5" />
-																	<label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-																	<input type="radio" id="star1" name="rating" value="1" />
-																	<label class="full" for="star1" title="Sucks big time - 1 star"></label>
-																	<input type="radio" id="starhalf" name="rating" value="0.5" />
-																	<label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-																	<input type="radio" class="reset-option" name="rating" value="reset" />
-																</fieldset>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-
-										</div>
-										<div class="form-group">
-											<label for="purpose">What is the main purpose of your visit?</label>
-											<select class="form-control" id="purpose" name="purpose" style="width: 100%">
-												<option>Please select an option</option>
-												<option value="1">Reason One</option>
-												<option value="2">Reason Two</option>
-												<option value="3">Reason Three</option>
-												<option value="4">Reason Four</option>
-												<option value="5">Reason Five</option>
-											</select>
-										</div>
-										<div class="form-group">
-											<label for="improve">What can we do to improve your experience with us?</label>
-											<textarea class="form-control" id="improve" name="improve"></textarea>
-										</div>
-										<div class="form-group">
-											<label for="anything">Is there anything else you would like to share?</label>
-											<textarea class="form-control" id="anything" name="anything"></textarea>
-										</div>
-									</div>
-									<div class="modal-footer justify-content-between">
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Later</button>
-										<button type="submit" class="btn btn-primary">Submit</button>
-									</div>
-								</form>
-
+					  <div class="modal-header">
+						<h5 class=" col-12 modal-title text-center " id="exampleModalLabel">Get in Touch</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  <div class="modal-body">
+						<form>
+						  <div class="form-group">
+							<label for="recipient-name" class="col-form-label">Name:</label>
+							<input type="text" class="form-control" id="recipient-name">
+						  </div>
+						  <div class="form-group">
+							<label for="recipient-name" class="col-form-label">Email:</label>
+							<input type="email" class="form-control" id="recipient-name">
+						  </div>
+						  <div class="form-group">
+							<label for="message-text" class="col-form-label">Message:</label>
+							<textarea class="form-control" id="message-text"></textarea>
+						  </div>
+						</form>
+					  </div>
+					  <div class="modal-footer text-center">
+							<div class="col-md-12 text-center">
+								<button type="button" class="btn btn-primary">Send Message</button>
 							</div>
+					  </div>
+					</div>
 						</div>
 					</div>
 				</div>
