@@ -690,9 +690,6 @@
 										<a href="#why-us-section" class="footer__list-item-link">Why Us</a>
 									</li>
 									<li class="footer__list-item">
-										<a href="#features-section" class="footer__list-item-link">Features</a>
-									</li>
-									<li class="footer__list-item">
 										<a href="#" class="footer__list-item-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact us</a>
 									</li>
 								</ul>
