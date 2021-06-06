@@ -198,10 +198,11 @@
 								<div class="col-12">
 									<nav class="site-navigation text-right ml-auto " role="navigation" >
 										<ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" style="padding-top: 48px;">
-											<li><a href="#technology_consulting_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Technology Consulting</a></li>
+											
 											<li><a href="#cyber_security_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cyber Security</a></li>
 											<li><a href="#it_ops_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">IT Operations Management</a></li>
 											<li><a href="#cloud_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cloud</a></li>
+											<li><a href="#technology_consulting_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Technology Consulting</a></li>
 											
 										</ul>
 									</nav>
@@ -307,11 +308,11 @@
 								<main class="container py-4">
 
 									<article class="postcard dark blue" id="it_ops_link">
-										<a class="postcard__img_link" href="#">
-											<img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
-										</a>
+										
 										<div class="postcard__text">
-											<h1 class="postcard__title blue"><a href="#" style="color: black;font-size: 20px;">IT Operations Management</a></h1>
+											<h1 class="postcard__title blue"><a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="assets/images/flaticon/creative(1).png" alt="It Operationa Management"  style="width:100px;"/>
+										</a><a href="#" style="color: black;font-size: 20px;">IT Operations Management</a></h1>
 											<div class="postcard__bar"></div>
 											<div class="postcard__preview-txt" style="color:black;">Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
 										infrastructure, on-premise, in hosted data centres and in the cloud. We help our clients 
@@ -319,60 +320,60 @@
 										
 											<div class="card_list">
 												<ul class="first-list" style="color:black;">
-												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Automate and optimize IT operations</li>
-												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Create visibility across multi-vendor infrastructure, cloud providers and operating
+												  <li>•   Automate and optimize IT operations</li>
+												  <li>•   Create visibility across multi-vendor infrastructure, cloud providers and operating
 													systems greatly simplifying monitoring and troubleshooting</li>
-												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Monitor IT services health, and drill down to the root cause of degradations in performance</li>
-												  <li><img src="assets/images/list_style.png" alt="List" style="width: 20px;"> Automatically respond to degradation to restore optimal working conditions.</li>
+												  <li>•   Monitor IT services health, and drill down to the root cause of degradations in performance</li>
+												  <li>•   Automatically respond to degradation to restore optimal working conditions.</li>
 												</ul>
 											</div>
 										</div>
 										
 									</article>
 									<article class="postcard dark red" id="cyber_security_link">
-										<a class="postcard__img_link" href="#">
-											<img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
-										</a>
 										<div class="postcard__text">
-											<h1 class="postcard__title red"><a href="#" style="color: black;font-size: 20px;">Cybersecurity</a></h1>
+											<h1 class="postcard__title red"><a class="postcard__img_link" href="#">
+											<img class="postcard__img"  src="assets/images/flaticon/shield.png" alt=" Cyber Security" style="width:100px" />	
+										</a>
+											<a href="#" style="color: black;font-size: 20px;">Cybersecurity</a></h1>
 											<div class="postcard__bar"></div>
 											<div class="postcard__preview-txt" style="color:black;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
 									managing enterprise security has never been more challenging.  Protect your business and brand 
 									integrity with our intelligent data-driven security solutions and insights.</div><br/>
 											<div class="card_list">
 												<ul class="first-list" style="color:black;">
-												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> We help organizations gain visibility across their entire ICT estate enabling them to visualize emerging attacks from multiple sources across all environments, devices and platforms.</li>
-												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> When under attack, speed is of utmost importance. Aarify helps you respond faster through security automation and orchestration. </li>
-												  <li><img src="assets/images/padlock.png" alt="List" style="width: 20px;"> Save time and obtain greater control of your cybersecurity through automated compliance analytics and reporting across multiple regulatory frameworks.</li>
+												  <li>•   We help organizations gain visibility across their entire ICT estate enabling them to visualize emerging attacks from multiple sources across all environments, devices and platforms.</li>
+												  <li>•   When under attack, speed is of utmost importance. Aarify helps you respond faster through security automation and orchestration. </li>
+												  <li>•   Save time and obtain greater control of your cybersecurity through automated compliance analytics and reporting across multiple regulatory frameworks.</li>
 												</ul>
 											</div>
 											
 										</div>
 									</article>
 									<article class="postcard dark green" id="cloud_link">
-										<a class="postcard__img_link" href="#">
-											<img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
-										</a>
+										
 										<div class="postcard__text">
-											<h1 class="postcard__title green"><a href="#" style="color: black;font-size: 20px;">Cloud Migration </a></h1>
+											<h1 class="postcard__title green"><a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="assets/images/flaticon/cloud-computing.png" alt="Cloud Migration" style="width:100px" />
+										</a><a href="#" style="color: black;font-size: 20px;">Cloud Migration </a></h1>
 											<div class="postcard__bar"></div>
-											<div class="postcard__preview-txt" style="color:black;">Today’s  business dynamics are driving organizations towards the cloud as they seek to become agile and more efficient in their operations. We help our customers in their digital transformation journey by providing them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support. Our approach underscores the following key business outcomes.</div>
+											<div class="postcard__preview-txt" style="color:black;">Today’s  business dynamics are driving organizations towards the cloud as they seek to become agile and more efficient in their operations. We help our customers in their digital transformation journey by providing them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support. Our approach underscores the following key business outcomes:</div>
 											<div class="card_list">
 												<ul class="first-list" style="color:black;">
-												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Define the right cloud strategy. </li>
-												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Architect the right cloud solutions with emphasis on value, high availability, data security and automation.</li>
-												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Provide the required skills to re-platform and migrate services to the cloud. </li>
-												  <li><img src="assets/images/clouds.png" alt="List" style="width: 20px;"> Align processes and people for a successful cloud journey. </li>
+												  <li>•  Define the right cloud strategy. </li>
+												  <li>•  Architect the right cloud solutions with emphasis on value, high availability, data security and automation.</li>
+												  <li>•  Provide the required skills to re-platform and migrate services to the cloud. </li>
+												  <li>•  Align processes and people for a successful cloud journey. </li>
 												</ul>
 											</div>
 										</div>
 									</article>
 									<article class="postcard dark yellow" id="technology_consulting_link">
-										<a class="postcard__img_link" href="#">
-											<img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
-										</a>
+										
 										<div class="postcard__text">
-											<h1 class="postcard__title yellow"><a href="#" style="color: black;font-size: 20px;">Technology Consulting</a></h1>
+											<h1 class="postcard__title yellow"><a class="postcard__img_link" href="#">
+											<img class="postcard__img" src="assets/images/flaticon/24-hours-support.png" alt="Technology Consulting" style="width:100px;"/>
+										</a><a href="#" style="color: black;font-size: 20px;">Technology Consulting</a></h1>
 											<div class="postcard__bar"></div>
 											<div class="postcard__preview-txt" style="color:black;">As you navigate your transformation journey, you will be faced with numerous choices to make in your strategy and technology ecosystem. The rate of technology evolution today makes the task even more overwhelming as you seek to make the best decisions for your digital future. We help our customers to tailor strategy and roadmaps that fit and to uncover the right technology choices for their business problems. Our services span the entire lifecycle, from strategy to implementation and the entire technology ecosystem covering cloud, IT optimization, infrastructure and cybersecurity.  We ensure that all the critical pieces are put together for a successful transformation.</div>
 										</div>
@@ -399,19 +400,19 @@
                             </div>
                         </div>
                     </div>
-					<div id="module3" class="page-anchor">module3</div>
-                    <div class="site-section" id="core-values-section">
+					
+                    <div class="site-section" style="background: #FDF8F5;">
                         <div class="container">
                             <div class="row mb-5 ">
                                 <div class="col-md-12">
                                     <div class="block-heading-1 text-center">
-                                        <h2 style="font-size:36px;line-height:1.33;color:black !important;">Core Values</h2>
+                                        <h2 style="font-size:36px;line-height:1.33;color:black !important;"> Our Core Values</h2>
                                     </div>
                                     <div class="row">
                                         <div class="column-values zoom">
                                             <div class="card-values ">
                                                 <p style="color: black; font-size: 20px; font-weight: 700;">EXCELLENCE</p>
-                                                <p style="font-size: 14px; font-weight: 600;">
+                                                <p style="font-size: 16px; color:black;">
                                                     We strive for excellence in all that we do. We set high personal and company standards, 
                                                     and then consistently work to exceed them. We attract self-motivated, highly capable, 
                                                     results-oriented people and invest heavily in their development.
@@ -422,7 +423,7 @@
                                         <div class="column-values zoom">
                                             <div class="card-values">
                                             <p style="color: black; font-size: 20px; font-weight: 700;">INTEGRITY</p>
-                                                <p style="font-size: 14px; font-weight: 600;">
+                                                <p style="font-size: 16px; color:black;">
                                                 We are honest, transparent and ethical in our conduct.<br>
                                                 We do what is right always, not what is easiest.
                                                 </p>
@@ -432,7 +433,7 @@
                                         <div class="column-values zoom">
                                             <div class="card-values">
                                                 <p style="color: black; font-size: 20px; font-weight: 700;">COMMITMENT TO CUSTOMERS</P>
-                                                <p style="font-size: 14px; font-weight: 600;">
+                                                <p style="font-size: 16px; color:black;">
 												Our customers are our partners and we focus on achieving total customer satisfaction, confidence, and enthusiasm.  We always strive to achieve healthy long-term alliances through trust, reliability and integrity
                                                    
                                                 </p>
@@ -443,7 +444,7 @@
                                         <div class="column-values zoom">
                                             <div class="card-values">
                                                 <p style="color: black; font-size: 20px; font-weight: 700;">TEAMWORK</p>
-                                                <p style="font-size: 14px; font-weight: 600;">
+                                                <p style="font-size: 16px; color:black;">
                                                 We inspire loyalty with our employees and partners through recognition,<br> understanding and mutual respect. 
                                                 We strive to have fun and enjoy our relationships with those with whom we interface.
                                                 </p>
@@ -452,7 +453,7 @@
                                         <div class="column-values zoom">
                                             <div class="card-values">
                                                 <p style="color: black; font-size: 20px; font-weight: 700;">INNOVATION</p>
-                                                <p style="font-size: 14px; font-weight: 600;">
+                                                <p style="font-size: 16px; color:black;">
                                                 We will be bold, courageous and agile in tackling customer challenges while redefining new standards of 
                                                 excellence in everything that we do
                                                 </p>
@@ -539,7 +540,7 @@
 									<div class="media-cta-container__content">
 										<div class="media-cta-container__header-info">
 											<div class="block-heading-1 text-center">
-												<h2 class="media-cta-container__title" style="color:black !important; line-height:0.8">Why you should choose us?</h2>
+												<h2 class="media-cta-container__title" style="color:black !important; line-height:0.8">Why you should choose us.</h2>
 											</div>
 										</div>
 										<div class="media-cta-container__list-container"></div>
@@ -626,7 +627,7 @@
                                 
                             </div>
                         </div>
-						<div id="feedback-section">
+						<div id="feedback-section" style="display:none">
 							<div id="feedback">
 								<a href="#" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#feedback_modal">
 									<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI5LjI5OXB4IiBoZWlnaHQ9IjUwLjYyNXB4IiB2aWV3Qm94PSIwIDAgOS4yOTkgNTAuNjI1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA5LjI5OSA1MC42MjUiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zLjUxNiw0Ni44N3YxLjYzNWg1LjY2N3YwLjk3NEgzLjUxNnYxLjE0N2gtMC40NGwtMC4zNTItMS4xNDdIMi4zNjdDMC43ODksNDkuNDc4LDAsNDguNzg4LDAsNDcuNDA5YzAtMC4zNCwwLjA2OC0wLjczOCwwLjIwNS0xLjE5NWwwLjc3OSwwLjI1MmMtMC4xMjEsMC4zNzUtMC4xODIsMC42OTUtMC4xODIsMC45NjFjMCwwLjM2NywwLjEyMiwwLjY0LDAuMzY2LDAuODE0YzAuMjQ0LDAuMTc2LDAuNjM2LDAuMjY0LDEuMTc1LDAuMjY0SDIuNzZWNDYuODdIMy41MTZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkuMjk5LDQyLjk4NWMwLDAuOTQ5LTAuMjg5LDEuNjk3LTAuODY2LDIuMjQ2Yy0wLjU3OCwwLjU0OS0xLjM4MiwwLjgyNC0yLjQwOCwwLjgyNGMtMS4wMzYsMC0xLjg1Ny0wLjI1Ni0yLjQ2Ny0wLjc2NmMtMC42MS0wLjUxMS0wLjkxNC0xLjE5My0wLjkxNC0yLjA1NGMwLTAuODA1LDAuMjY1LTEuNDQsMC43OTQtMS45MDljMC41MjktMC40NywxLjIyOC0wLjcwMywyLjA5NS0wLjcwM2gwLjYxNXY0LjQyNGMwLjc1NC0wLjAyMSwxLjMyNi0wLjIxMSwxLjcxNy0wLjU3MlM4LjQ1LDQzLjYwNiw4LjQ1LDQyLjk1YzAtMC42OTEtMC4xNDUtMS4zNzUtMC40MzQtMi4wNTFoMC44NjZjMC4xNDgsMC4zNDQsMC4yNTUsMC42NjgsMC4zMTksMC45NzVDOS4yNjcsNDIuMTgxLDkuMjk5LDQyLjU1MSw5LjI5OSw0Mi45ODV6IE0zLjQ1Nyw0My4yNDljMCwwLjUxNywwLjE2OCwwLjkyNiwwLjUwNCwxLjIzMnMwLjgwMSwwLjQ4OCwxLjM5NiwwLjU0M3YtMy4zNTdjLTAuNjEzLDAtMS4wODMsMC4xMzgtMS40MSwwLjQxQzMuNjIxLDQyLjM1LDMuNDU3LDQyLjc0MSwzLjQ1Nyw0My4yNDl6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkuMjk5LDM2LjI1MmMwLDAuOTQ5LTAuMjg5LDEuNjk3LTAuODY2LDIuMjQ2Yy0wLjU3OCwwLjU0OS0xLjM4MiwwLjgyNC0yLjQwOCwwLjgyNGMtMS4wMzYsMC0xLjg1Ny0wLjI1Ni0yLjQ2Ny0wLjc2NmMtMC42MS0wLjUxLTAuOTE0LTEuMTkzLTAuOTE0LTIuMDUzYzAtMC44MDUsMC4yNjUtMS40NDEsMC43OTQtMS45MXMxLjIyOC0wLjcwMywyLjA5NS0wLjcwM2gwLjYxNXY0LjQyNGMwLjc1NC0wLjAyLDEuMzI2LTAuMjExLDEuNzE3LTAuNTcyczAuNTg2LTAuODY5LDAuNTg2LTEuNTI1YzAtMC42OTEtMC4xNDUtMS4zNzUtMC40MzQtMi4wNTFoMC44NjZjMC4xNDgsMC4zNDQsMC4yNTUsMC42NjgsMC4zMTksMC45NzZTOS4yOTksMzUuODE5LDkuMjk5LDM2LjI1MnogTTMuNDU3LDM2LjUxNmMwLDAuNTE2LDAuMTY4LDAuOTI2LDAuNTA0LDEuMjMyYzAuMzM2LDAuMzA4LDAuODAxLDAuNDg4LDEuMzk2LDAuNTQzdi0zLjM1N2MtMC42MTMsMC0xLjA4MywwLjEzNy0xLjQxLDAuNDFDMy42MjEsMzUuNjE4LDMuNDU3LDM2LjAwOCwzLjQ1NywzNi41MTZ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTguMzE5LDI3Ljg2MnYwLjA1M2MwLjY1MiwwLjQ0OSwwLjk3OSwxLjEyMSwwLjk3OSwyLjAxN2MwLDAuODQtMC4yODYsMS40OTMtMC44NiwxLjk2UzcuMDQ3LDMyLjU5LDUuOTg5LDMyLjU5Yy0xLjA1OCwwLTEuODgxLTAuMjMzLTIuNDY3LTAuNzAyYy0wLjU4Ni0wLjQ3LTAuODc5LTEuMTIxLTAuODc5LTEuOTU3YzAtMC44NzEsMC4zMTYtMS41MzksMC45NDktMi4wMDVWMjcuODVsLTAuNDYzLDAuMDQxbC0wLjQ1MSwwLjAyM0gwLjA2NHYtMC45NzRoOS4xMTd2MC43OTFMOC4zMTksMjcuODYyeiBNOC40ODMsMjkuODA3YzAtMC42NjQtMC4xOC0xLjE0Ni0wLjU0MS0xLjQ0NHMtMC45NDQtMC40NDgtMS43NS0wLjQ0OEg1Ljk4N2MtMC45MDksMC0xLjU1OSwwLjE1MS0xLjk0NywwLjQ1NWMtMC4zODgsMC4zMDMtMC41ODMsMC43ODUtMC41ODMsMS40NDljMCwwLjU3LDAuMjIyLDEuMDA4LDAuNjY1LDEuMzExUzUuMTksMzEuNTgzLDYsMzEuNTgzYzAuODE5LDAsMS40MzgtMC4xNDksMS44NTYtMC40NTFDOC4yNzQsMzAuODMxLDguNDgzLDMwLjM4OSw4LjQ4MywyOS44MDd6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTIuNjU0LDIxLjg5MWMwLTAuODQ0LDAuMjg4LTEuNDk5LDAuODY0LTEuOTY2YzAuNTc2LTAuNDY3LDEuMzkyLTAuNywyLjQ0Ni0wLjdjMS4wNTUsMCwxLjg3NCwwLjIzNSwyLjQ1OCwwLjcwNmMwLjU4NCwwLjQ3MSwwLjg3NiwxLjEyNCwwLjg3NiwxLjk2YzAsMC40MTgtMC4wNzYsMC44LTAuMjMsMS4xNDZjLTAuMTU0LDAuMzQ2LTAuMzkzLDAuNjM2LTAuNzEzLDAuODd2MC4wN2wwLjgyNiwwLjIwNXYwLjY5N0gwLjA2NHYtMC45NzNoMi4yMTVjMC40OTYsMCwwLjk0MSwwLjAxNiwxLjMzNiwwLjA0N3YtMC4wNDdDMi45NzUsMjMuNDU0LDIuNjU0LDIyLjc4MiwyLjY1NCwyMS44OTF6IE0zLjQ2OSwyMi4wMzJjMCwwLjY2NCwwLjE5LDEuMTQzLDAuNTcxLDEuNDM2czEuMDIyLDAuNDM5LDEuOTI1LDAuNDM5YzAuOTAzLDAsMS41NDgtMC4xNSwxLjkzNy0wLjQ1MWMwLjM5LTAuMzAxLDAuNTg0LTAuNzgzLDAuNTg0LTEuNDQ3YzAtMC41OTgtMC4yMTktMS4wNDMtMC42NTMtMS4zMzZzLTEuMDYyLTAuNDM5LTEuODc4LTAuNDM5Yy0wLjgzNiwwLTEuNDU5LDAuMTQ2LTEuODY5LDAuNDM5UzMuNDY5LDIxLjQxOCwzLjQ2OSwyMi4wMzJ6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTkuMTgzLDEzLjU3N0w4LjI2OSwxMy43N3YwLjA0N2MwLjQwMSwwLjMyLDAuNjc0LDAuNjQsMC44MTYsMC45NThzMC4yMTQsMC43MTYsMC4yMTQsMS4xOTJjMCwwLjYzNy0wLjE2NCwxLjEzNi0wLjQ5MSwxLjQ5N2MtMC4zMjgsMC4zNjEtMC43OTUsMC41NDItMS40LDAuNTQyYy0xLjI5NywwLTEuOTc3LTEuMDM3LTIuMDM5LTMuMTExbC0wLjAzNS0xLjA5SDQuOTM0Yy0wLjUwNCwwLTAuODc2LDAuMTA4LTEuMTE2LDAuMzI1Yy0wLjI0LDAuMjE3LTAuMzYsMC41NjMtMC4zNiwxLjA0YzAsMC41MzUsMC4xNjQsMS4xNDEsMC40OTIsMS44MTZsLTAuNzQ0LDAuMjk5Yy0wLjE3Mi0wLjMxNi0wLjMwNy0wLjY2My0wLjQwNC0xLjA0Yy0wLjA5Ny0wLjM3Ny0wLjE0Ni0wLjc1NS0wLjE0Ni0xLjEzNGMwLTAuNzY2LDAuMTctMS4zMzMsMC41MS0xLjcwMmMwLjM0LTAuMzY5LDAuODg1LTAuNTU0LDEuNjM1LTAuNTU0aDQuMzg0djAuNzIySDkuMTgzeiBNOC40OTYsMTUuNzc0YzAtMC42MDUtMC4xNjYtMS4wODEtMC40OTgtMS40MjdjLTAuMzMyLTAuMzQ2LTAuNzk3LTAuNTE5LTEuMzk2LTAuNTE5aC0wLjU4bDAuMDQxLDAuOTczYzAuMDI3LDAuNzczLDAuMTQ3LDEuMzMxLDAuMzYsMS42NzNjMC4yMTQsMC4zNDIsMC41NDQsMC41MTMsMC45OTMsMC41MTNjMC4zNTIsMCwwLjYxOS0wLjEwNiwwLjgwMy0wLjMxOVM4LjQ5NiwxNi4xNTcsOC40OTYsMTUuNzc0eiIvPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik05LjI5OSw4LjI4NWMwLDAuOTMtMC4yODYsMS42NDktMC44NTgsMi4xNTljLTAuNTcxLDAuNTEtMS4zODEsMC43NjUtMi40MjgsMC43NjVjLTEuMDc1LDAtMS45MDUtMC4yNTktMi40OTEtMC43NzZTMi42NDMsOS4xNzgsMi42NDMsOC4yMjFjMC0wLjMwOSwwLjAzMy0wLjYxNywwLjEtMC45MjZDMi44MSw2Ljk4NiwyLjg4OCw2Ljc0NCwyLjk3Nyw2LjU2OGwwLjgyNiwwLjI5OUMzLjcxNyw3LjA4MiwzLjY0Niw3LjMxNiwzLjU4OSw3LjU3QzMuNTMyLDcuODI0LDMuNTA0LDguMDQ5LDMuNTA0LDguMjQ0YzAsMS4zMDUsMC44MzIsMS45NTcsMi40OTYsMS45NTdjMC43ODksMCwxLjM5Ni0wLjE1OSwxLjgxNS0wLjQ3OGMwLjQyMi0wLjMxOSwwLjYzNC0wLjc5LDAuNjM0LTEuNDE1YzAtMC41MzUtMC4xMTUtMS4wODQtMC4zNDctMS42NDZoMC44NjFDOS4xODgsNy4wOTIsOS4yOTksNy42MzMsOS4yOTksOC4yODV6Ii8+PHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTUuODk2LDQuMTc4QzUuNjU2LDQuMDEsNS4zNDQsMy43NTQsNC45NTcsMy40MUwyLjc2LDEuMzM2VjAuMTgybDIuNzM2LDIuNjAyTDkuMTgzLDB2MS4xNzhMNi4xNDYsMy40NDVsMC42MzMsMC43MzJoMi40MDJ2MC45NjFIMC4wNjR2LTAuOTZoNC44MzRjMC4yMTUsMCwwLjU0NiwwLjAxNiwwLjk5NiwwLjA0N1Y0LjE3OEg1Ljg5NnoiLz48L2c+PC9zdmc+"

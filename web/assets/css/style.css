@@ -1470,8 +1470,7 @@ h1, h2, h3, h4, h5,
 /* Float four columns side by side */
 .column-values {
   float: left;
-  width: 20%;
-  padding: 0 10px;
+  padding: 0;
 }
 
 .card-values {
