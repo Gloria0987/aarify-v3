@@ -540,7 +540,7 @@
 									<div class="media-cta-container__content">
 										<div class="media-cta-container__header-info">
 											<div class="block-heading-1 text-center">
-												<h2 class="media-cta-container__title" style="color:black !important; line-height:0.8">Why you should choose us.</h2>
+												<h2 class="media-cta-container__title" style="color:black !important; line-height:0.8">Why Aarify.</h2>
 											</div>
 										</div>
 										<div class="media-cta-container__list-container"></div>
