@@ -181,7 +181,7 @@
                                     <li><a href="#services-section" class="nav-link">Services</a></li>
                                     <li><a href="#about-section" class="nav-link">About Us</a></li>
                                     <li><a href="#why-us-section" class="nav-link">Why Us</a></li>
-                                    <li><a href="#contact-section" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact</a></li>
+                                    <li><a href="#contact-section" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contact us</a></li>
                                 </ul>
                             </nav>
                         </div>
