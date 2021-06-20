@@ -711,8 +711,8 @@
 						  <span aria-hidden="true">&times;</span>
 						</button>
 					  </div>
+					  <form  class="contact-form" onsubmit="return poster(this);">
 					  <div class="modal-body">
-						<form  class="contact-form" onsubmit="return poster(this);">
 						  <div class="form-group">
 							<label for="recipient-name" class="col-form-label">Name:</label>
 							<input type="text" class="form-control" id="name" name="name">
@@ -725,18 +725,20 @@
 							<label for="message-text" class="col-form-label">Message:</label>
 							<textarea class="form-control" id="comments" name="comments" ></textarea>
 						  </div>
-						</form>
+						
 					  </div>
 					  <div class="modal-footer text-center">
 							<div class="col-md-12 text-center">
 								<button type="button" class="btn btn-primary" type="submit" name="submit" id="submit">Send Message</button>
 							</div>
 					  </div>
-					</div>
-				  </div>
-				  <div class="col-lg-12 alert-notification">
+					  <div class="col-lg-12 alert-notification">
                         <div id="message" class="alert-msg"></div>
                     </div>
+					  </form>
+					</div>
+				  </div>
+				  
 				</div>
             </main>
             <!-- main end -->

@@ -36,7 +36,7 @@ else if(trim($comments) == '') {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "info@aarify.com";
+$address = "kambuasammy96@gmail.com";
 
 
 // Configuration option.
