@@ -1066,7 +1066,7 @@
         let poster = (form) => {
             let form_data = new FormData(form);
             $.ajax({
-                url: "contactt.php",
+                url: "contact.php",
                 type: "POST",
                 data: form_data,
                 processData: false,
