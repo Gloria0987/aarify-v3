@@ -23,10 +23,7 @@ if(trim($name) == '') {
 } else if(!isEmail($email)) {
 	echo '<div class="alert alert-error">You must enter a valid email address.</div>';
 	exit();
-} else if(trim($phone) == '') {
-	echo '<div class="alert alert-error">Please fill all fields!</div>';
-	exit();
-}
+} 
 else if(trim($comments) == '') {
 	echo '<div class="alert alert-error">You must enter your comments</div>';
 	exit();
@@ -39,7 +36,7 @@ else if(trim($comments) == '') {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "vicgloriesammy97@gmail.com";
+$address = "info@aarify.com";
 
 
 // Configuration option.

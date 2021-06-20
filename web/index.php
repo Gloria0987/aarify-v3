@@ -714,15 +714,15 @@
 						<form action="contact.php" method="POST" class="contact-form">
 						  <div class="form-group">
 							<label for="recipient-name" class="col-form-label">Name:</label>
-							<input type="text" class="form-control" id="recipient-name">
+							<input type="text" class="form-control" id="name" name="name">
 						  </div>
 						  <div class="form-group">
 							<label for="recipient-name" class="col-form-label">Email:</label>
-							<input type="email" class="form-control" id="recipient-name">
+							<input type="email" class="form-control" id="email" name="email">
 						  </div>
 						  <div class="form-group">
 							<label for="message-text" class="col-form-label">Message:</label>
-							<textarea class="form-control" id="message-text"></textarea>
+							<textarea class="form-control" id="comments" name="comments" ></textarea>
 						  </div>
 						</form>
 					  </div>
@@ -731,6 +731,9 @@
 								<button type="button" class="btn btn-primary" type="submit" name="submit" id="submit">Send Message</button>
 							</div>
 					  </div>
+					  <div class="col-lg-12 alert-notification">
+                        <div id="message" class="alert-msg"></div>
+                       </div>
 					</div>
 						</div>
 					</div>
