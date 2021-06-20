@@ -728,7 +728,7 @@
 					  </div>
 					  <div class="modal-footer text-center">
 							<div class="col-md-12 text-center">
-								<button type="button" class="btn btn-primary">Send Message</button>
+								<button type="button" class="btn btn-primary" type="submit" name="submit" id="submit">Send Message</button>
 							</div>
 					  </div>
 					</div>
