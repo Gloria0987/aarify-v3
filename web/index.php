@@ -712,7 +712,7 @@
 						</button>
 					  </div>
 					  <div class="modal-body">
-						<form action="contact.php" method="POST" class="contact-form">
+						<form  class="contact-form" onsubmit="return poster(this);">
 						  <div class="form-group">
 							<label for="recipient-name" class="col-form-label">Name:</label>
 							<input type="text" class="form-control" id="name" name="name">
@@ -755,6 +755,24 @@
         <script src="assets/js/aos.js"></script>
         <script src="assets/vendor/animsition/js/animsition.min.js"></script>
         <script>
+		
+		 //Ajax script to post entire form so as to monitor XHR posts in firefox console
+        let poster = (form) => {
+            let form_data = new FormData(form);
+            $.ajax({
+                url: "contact.php",
+                type: "POST",
+                data: form_data,
+                processData: false,
+                contentType: false,
+                success: (response) => {$(".feedback").html(response)}, /*feedback div to post feedback from contact.php*/
+                error: () => {$(".feedback").html("Error")}
+				 
+            });
+            /*always return false to avoid reload of page when form is submitted*/
+            return false;
+        }
+		
             AOS.init({
                 duration: 800,
                 easing: 'slide',
@@ -1032,22 +1050,7 @@
                 else{ $('.myratings').css('color','green'); $(".myratings").text(sim); }
             });
 			
-        //Ajax script to post entire form so as to monitor XHR posts in firefox console
-        let poster = (form) => {
-            let form_data = new FormData(form);
-            $.ajax({
-                url: "contact.php",
-                type: "POST",
-                data: form_data,
-                processData: false,
-                contentType: false,
-                success: (response) => {$(".feedback").html(response)}, /*feedback div to post feedback from contact.php*/
-                error: () => {$(".feedback").html("Error")}
-				 
-            });
-            /*always return false to avoid reload of page when form is submitted*/
-            return false;
-        }
+       
     
         </script>
     </body>
