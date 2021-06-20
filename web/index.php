@@ -1061,6 +1061,24 @@
                 if (sim<3) { $('.myratings').css('color','red'); $(".myratings").text(sim); }
                 else{ $('.myratings').css('color','green'); $(".myratings").text(sim); }
             });
+			
+        //Ajax script to post entire form so as to monitor XHR posts in firefox console
+        let poster = (form) => {
+            let form_data = new FormData(form);
+            $.ajax({
+                url: "contactt.php",
+                type: "POST",
+                data: form_data,
+                processData: false,
+                contentType: false,
+                success: (response) => {$(".feedback").html(response)}, /*feedback div to post feedback from contact.php*/
+                error: () => {$(".feedback").html("Error")}
+				 
+            });
+            /*always return false to avoid reload of page when form is submitted*/
+            return false;
+        }
+    
         </script>
     </body>
 </html>
