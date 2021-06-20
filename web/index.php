@@ -198,7 +198,6 @@
 								<div class="col-12">
 									<nav class="site-navigation text-right ml-auto " role="navigation" >
 										<ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block" style="padding-top: 48px;">
-											
 											<li><a href="#cyber_security_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cyber Security</a></li>
 											<li><a href="#it_ops_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">IT Operations Management</a></li>
 											<li><a href="#cloud_link" class="nav-link" style="color:#c3447a!important;font-size: 20px;">Cloud</a></li>
@@ -314,11 +313,11 @@
 											<img class="postcard__img" src="assets/images/flaticon/creative(1).png" alt="It Operationa Management"  style="width:100px;"/>
 										</a><a href="#" style="color: black;font-size: 20px;">IT Operations Management</a></h1>
 											<div class="postcard__bar"></div>
-											<div class="postcard__preview-txt" style="color:black;">Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
+											<div class="postcard__preview-txt" style="color:black;padding-left:10px;">Hybrid IT is here with us, and it is complex. Workloads run across physical and virtual 
 										infrastructure, on-premise, in hosted data centres and in the cloud. We help our clients 
 										achieve the following business outcomes:</div><br/>
 										
-											<div class="card_list">
+											<div class="card_list" style="padding-left:10px;">
 												<ul class="first-list" style="color:black;">
 												  <li>•   Automate and optimize IT operations</li>
 												  <li>•   Create visibility across multi-vendor infrastructure, cloud providers and operating
@@ -337,10 +336,10 @@
 										</a>
 											<a href="#" style="color: black;font-size: 20px;">Cybersecurity</a></h1>
 											<div class="postcard__bar"></div>
-											<div class="postcard__preview-txt" style="color:black;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
+											<div class="postcard__preview-txt" style="color:black; padding-left:10px;">With ever advancing security threats, evolving adversary tactics and changing business demands, 
 									managing enterprise security has never been more challenging.  Protect your business and brand 
 									integrity with our intelligent data-driven security solutions and insights.</div><br/>
-											<div class="card_list">
+											<div class="card_list" style="padding-left:10px;">
 												<ul class="first-list" style="color:black;">
 												  <li>•   We help organizations gain visibility across their entire ICT estate enabling them to visualize emerging attacks from multiple sources across all environments, devices and platforms.</li>
 												  <li>•   When under attack, speed is of utmost importance. Aarify helps you respond faster through security automation and orchestration. </li>
@@ -357,8 +356,8 @@
 											<img class="postcard__img" src="assets/images/flaticon/cloud-computing.png" alt="Cloud Migration" style="width:100px" />
 										</a><a href="#" style="color: black;font-size: 20px;">Cloud Migration </a></h1>
 											<div class="postcard__bar"></div>
-											<div class="postcard__preview-txt" style="color:black;">Today’s  business dynamics are driving organizations towards the cloud as they seek to become agile and more efficient in their operations. We help our customers in their digital transformation journey by providing them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support. Our approach underscores the following key business outcomes:</div>
-											<div class="card_list">
+											<div class="postcard__preview-txt" style="color:black; padding-left:10px;">Today’s  business dynamics are driving organizations towards the cloud as they seek to become agile and more efficient in their operations. We help our customers in their digital transformation journey by providing them with a comprehensive suite of services spanning the entire cloud lifecycle, from cloud strategy to tactical approach and support. Our approach underscores the following key business outcomes:</div>
+											<div class="card_list" style="padding-left:10px;">
 												<ul class="first-list" style="color:black;">
 												  <li>•  Define the right cloud strategy. </li>
 												  <li>•  Architect the right cloud solutions with emphasis on value, high availability, data security and automation.</li>
@@ -375,7 +374,7 @@
 											<img class="postcard__img" src="assets/images/flaticon/24-hours-support.png" alt="Technology Consulting" style="width:100px;"/>
 										</a><a href="#" style="color: black;font-size: 20px;">Technology Consulting</a></h1>
 											<div class="postcard__bar"></div>
-											<div class="postcard__preview-txt" style="color:black;">As you navigate your transformation journey, you will be faced with numerous choices to make in your strategy and technology ecosystem. The rate of technology evolution today makes the task even more overwhelming as you seek to make the best decisions for your digital future. We help our customers to tailor strategy and roadmaps that fit and to uncover the right technology choices for their business problems. Our services span the entire lifecycle, from strategy to implementation and the entire technology ecosystem covering cloud, IT optimization, infrastructure and cybersecurity.  We ensure that all the critical pieces are put together for a successful transformation.</div>
+											<div class="postcard__preview-txt" style="color:black;padding-left:10px;">As you navigate your transformation journey, you will be faced with numerous choices to make in your strategy and technology ecosystem. The rate of technology evolution today makes the task even more overwhelming as you seek to make the best decisions for your digital future. We help our customers to tailor strategy and roadmaps that fit and to uncover the right technology choices for their business problems. Our services span the entire lifecycle, from strategy to implementation and the entire technology ecosystem covering cloud, IT optimization, infrastructure and cybersecurity.  We ensure that all the critical pieces are put together for a successful transformation.</div>
 										</div>
 									</article>
 								</main>
@@ -712,7 +711,7 @@
 						</button>
 					  </div>
 					  <div class="modal-body">
-						<form>
+						<form action="contact.php" method="POST" class="contact-form">
 						  <div class="form-group">
 							<label for="recipient-name" class="col-form-label">Name:</label>
 							<input type="text" class="form-control" id="recipient-name">
